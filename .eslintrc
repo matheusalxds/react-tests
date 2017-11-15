@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "excludes": ["**.html"],
+  "rules": {
+    "max-len": ["error", 120],
+    "linebreak-style": 0,
+    "arrow-body-style": 2,
+    "no-underscore-dangle": 0,
+    "react/forbid-prop-types": 0,
+    "no-restricted-syntax": 0
+  },
+  "globals": {
+    "$": true,
+    "window": true,
+    "document": true,
+    "jQuery": true,
+    "Blob": true
+  }
+}
